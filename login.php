@@ -2,6 +2,7 @@
 
 session_start();
 
+
 require 'config.php';
 
 if (!empty($_POST['usuario']) && !empty($_POST['password'])) {
